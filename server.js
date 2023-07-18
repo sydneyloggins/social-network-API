@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require('./db');
+const db = require('./config/connection');
 const routes = require('./routes');
 
 const app = express();
@@ -14,4 +14,4 @@ db.once('open', () => {
         console.log(`App listening on port ${PORT}!`);
     });
     });
-    
+
