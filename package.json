@@ -1,0 +1,24 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydneyloggins/social-network-API.git"
+  },
+  "author": "Sydney Loggins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sydneyloggins/social-network-API/issues"
+  },
+  "homepage": "https://github.com/sydneyloggins/social-network-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4"
+  }
+}
